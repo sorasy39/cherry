@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" onclick="revealMessage()">
+        <div class="card">
+            <h1>✨クリック✨</h1>
+        </div>
+    </div>
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <h2>🎂 誕生日 🎂<br>おめでとう！ </h2>
+            <p>いつもありがとう。さくちゃんのかわいい笑顔が大好き！大学生楽しもう！</p>
+            <button onclick="closePopup()">閉じる</button>
+        </div>
+    </div>
+    <audio id="music" src="happy-birthday-254480.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
